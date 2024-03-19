@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+.test {
+    border: 1px solid red;
+}
+
+header {
+    background-image: url('../images/hero-image.jpg');
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    ;
+}
+
+.headerTeam {
+    height: 30rem;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+/* ----------------who we are---------------- */
+.red {
+    color: #e74c3c;
+}
+
+.trait::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    background: #e74c3c;
+    justify-self: center;
+    right: 50%;
+    left: 45%;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.card {
+    border: transparent;
+    background-color: #f2f2f2;
+
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(41, 38, 38, 0.368);
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.discoverIcon {
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    color: #e74c3c;
+
+}
+
+body {
+    background-color: rgba(119, 115, 115, 0.089);
+}
+
+.marginTeam {
+    margin: 120px;
+}
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: #e74c3c;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+.imgFooter {
+    margin-left: 50%;
+}
+
+@media (max-width: 576px) {
+
+    .imgFooter {
+        margin: auto;
+    }
+
+}
+
+
+/*     dicoverrTeam          */
+.donnees {
+    background: white;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+    cursor: alias;
+
+    h4 {
+        color: #e74c3c;
+
+
+    }
+
+
+}
+
+.donnees:hover {
+    background: none;
+
+    p {
+        color: #f2f2f2;
+    }
+}
+
+
+
+
+#personne1 {
+    background: url(../images/joanne.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+#personne2 {
+    background: url(../images/gaston.jpg)no-repeat center center;
+    background-size: contain;
+}
+
+#personne3 {
+    background: url(../images/manuel.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+#personne4 {
+    background: url(../images/tracy.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+
+/* --------sponsor--------------- */
+
+.marginTeam2 {
+    margin: 40px 0;
+}
